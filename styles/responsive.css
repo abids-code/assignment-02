@@ -1,0 +1,68 @@
+@media screen and (max-width: 576px) {
+    .nav-title{
+        margin-left: 20px;
+    }
+    .banner,
+    .habit-card-container,
+    .run-card-container {
+        flex-direction: column;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+    }
+
+    .banner-container {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
+    .nav-item-container {
+        display: none;
+    }
+
+    .banner-card {
+        padding: 20px;
+        width: 150px;
+    }
+    .card-title {
+        font-size: 1rem;
+    }
+    .card-one {
+        top: 350px;
+        right: 170px;
+    }
+
+    .card-two {
+        top: 170px;
+        left: 170px;
+    }
+
+    .btn-primary{
+        border-radius: 30px;
+        padding: 10px 15px;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .btn-secondary{
+        border-radius: 30px;
+        padding: 10px 15px;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .change-habits{
+        padding: 50px;
+    }
+    .run-card-container{
+        padding: 30px;
+        margin: 15px;
+    }
+    .rum-img img{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .run-card-btn{
+        width: 100%;
+    }
+
+}

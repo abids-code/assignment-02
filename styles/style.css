@@ -42,6 +42,20 @@
     background: none;
 }
 
+.section-title {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+
+
+
 
 
 
@@ -109,6 +123,7 @@ header {
 .banner {
     max-width: 1240px;
     margin: 32px auto;
+    margin-bottom: 0px;
     justify-content: space-between;
     align-items: center;
 }
@@ -128,6 +143,12 @@ header {
     margin: 30px 0px;
 }
 
+.banner-btn {
+    gap: 20px;
+}
+
+
+
 #shape {
     font-family: miama;
     font-weight: 400;
@@ -138,7 +159,8 @@ header {
 .banner-img {
     width: 100%;
 }
-.banner-img-container{
+
+.banner-img-container {
     position: relative;
 }
 
@@ -153,13 +175,14 @@ header {
     position: absolute;
 }
 
-.card-one{
+.card-one {
     top: 420px;
     right: 250px;
 }
-.card-two{
-    top: 125px;
-    left: 180px;
+
+.card-two {
+    top: 190px;
+    left: 150px;
 }
 
 
@@ -170,7 +193,7 @@ header {
 }
 
 .card-description {
-    color:rgba(239, 237, 232, 0.65);
+    color: rgba(239, 237, 232, 0.65);
 }
 
 
@@ -182,3 +205,71 @@ header {
     margin-right: 10px;
 }
 
+/* ------------- */
+
+/* Main Part Related Styles */
+main {
+    background: #111;
+}
+
+section {
+    max-width: 1240px;
+    margin: 0px auto;
+    /* padding: 100px; */
+    text-align: center;
+}
+
+
+/* Change Your Habits Section */
+.change-habits{
+    padding: 100px;
+}
+.habit-card-container {
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.habit-card-img {
+    border-radius: 50%;
+}
+
+.habit-card-title {
+    color: #FFF;
+    font-size: 1.12rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.habit-card-description {
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* ---------------- */
+
+/* Run Card */
+.run-card-container {
+    padding: 30px 32px 29px 54px;
+    max-width: 1240px;
+    border-radius: 18px;
+    background: #222;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.run-content {
+    max-width: 450px;
+    text-align: left;
+}
+
+.run-card-btn{
+    margin-top: 30px;
+    width: 50%;
+}
+
+.rum-img img{
+    max-width: 370px;
+    border-radius: 18px;
+}
