@@ -4,7 +4,8 @@
     }
     .banner,
     .habit-card-container,
-    .run-card-container {
+    .run-card-container,
+    .display-flex {
         flex-direction: column;
     }
 
@@ -64,5 +65,21 @@
     .run-card-btn{
         width: 100%;
     }
+    .calculate-your-bmi{
+        width: 380px;
+    }
+    .calculator-chart{
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    .team-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 
 }
